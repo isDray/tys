@@ -1,0 +1,65 @@
+.np_{
+    padding: 0px!important;
+}
+@media (max-width:768px){
+    #main{
+        background-color: #fcfaf2;
+        min-height: 100vh;
+    }
+    #logobox{
+        height: 70px;
+        margin-top: 20px;
+    }
+    #logobox img{
+        object-fit:contain;
+        height: 100%;
+    }
+    #indeximg{
+        margin-top: 70px;
+    }
+    /* menu */
+    #menubox{
+        height:600px;
+    }
+    /* 下方資訊 */
+    #footerbox{
+        margin-top: 45px;
+    }
+    #copyrightbox p {
+      margin-top: 20px;
+      color: #DBD6C6;
+      font-size: 12pt;
+      text-align: center;
+    }
+}
+@media (min-width: 769px){
+    #main{
+        background-color: #fcfaf2;
+        min-height: 100vh;
+    }
+    #logobox{
+    height: 70px;
+    margin-top: 40px;
+    }
+    #logobox img{
+    object-fit:contain;
+    height: 100%;
+    }
+    #indeximg{
+    margin-top: 20px;
+    }
+    /* menu */
+    #menubox{
+    height:600px;
+    }
+    /* 下方資訊 */
+    #footerbox{
+        margin-top: 45px;
+    }
+    #copyrightbox p {
+      white-space:nowrap;
+      color: #DBD6C6;
+      font-size: 12pt;
+      line-height: 45px;
+    }
+}
