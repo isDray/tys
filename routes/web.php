@@ -18,4 +18,20 @@ Route::get('/', function () {
 */
 
 // 首頁路由
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'WebController@index')->name('web');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+/*
+ * 後台區塊route
+ * -----------------------------------------------------------------------
+ *
+ */
+
+Route::get('/manager_blog', function () {
+    
+  echo '成功進入';
+})->middleware('auth');
