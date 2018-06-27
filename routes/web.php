@@ -31,7 +31,10 @@ Route::get('/home', 'HomeController@index')->name('home');
  *
  */
 
-Route::get('/manager_blog', function () {
-    
-  echo '成功進入';
-})->middleware('auth');
+
+Route::group(['middleware' => ['auth']], function () {
+
+  Route::get('/admin_blog','Admin_blogController@index');
+
+});
+
