@@ -29,23 +29,7 @@
   </div>	
 
  
-    <header>
-	<nav class="cd-stretchy-nav">
-		<a class="cd-nav-trigger" href="#0">	
-			<span aria-hidden="true"></span>
-		</a>
 
-		<ul>
-			<li><a href="#0" class="active"><span>Home</span></a></li>
-			<li><a href="#0"><span>about</span></a></li>
-			<li><a href="#0"><span>works</span></a></li>
-			<li><a href="#0"><span>share</span></a></li>
-			<li><a href="#0"><span>contact</span></a></li>
-		</ul>
-
-		<span aria-hidden="true" class="stretchy-nav-bg"></span>
-	</nav>
-    </header>
 		
 
 

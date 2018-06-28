@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 // 首頁路由
 Route::get('/', 'WebController@index')->name('web');
+Route::get('/contact', 'ContactController@index')->name('contact');
 
 Auth::routes();
 
