@@ -27,6 +27,8 @@
 
     <!-- Custom Theme Style -->
     <link href="{{ asset('admin_assets/build/css/custom.min.css') }}" rel="stylesheet">
+    
+
   </head>
 
   <body class="nav-md">
@@ -338,6 +340,14 @@
 
     <!-- Custom Theme Scripts -->
     <script src="{{ asset('admin_assets/build/js/custom.min.js') }}"></script>
-    
+    <script src="{{ asset('ckeditor/ckeditor.js') }}"/></script>
+                <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+            
+                  CKEDITOR.replace( 'editor1' );
+
+                
+            </script>
   </body>
 </html>

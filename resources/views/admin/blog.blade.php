@@ -3,7 +3,11 @@
 @section('main')
 
 <div class='row'>
-    <h1>1231332</h1>
+               <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+
 </div>
+
 
 @endsection
